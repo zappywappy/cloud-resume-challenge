@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Resume - First Last</title>
+  <style>
+    :root { --ink:#1f2937; --muted:#6b7280; --accent:#2f66c6; --rule:#e5e7eb; }
+    body { margin:0; background:#fff; color:var(--ink); font:14px/1.45 Arial, Helvetica, sans-serif; }
+    .page { max-width:860px; margin:28px auto; padding:0 28px 28px; }
+    h1 { margin:0; font-size:44px; letter-spacing:.2px; }
+    h2 { margin:4px 0 0; font-size:18px; font-weight:600; color:#374151; }
+    .meta { margin:6px 0 14px; color:var(--muted); }
+    .meta a { color:inherit; text-decoration:none; }
+    .summary { margin:0 0 18px; color:#4b5563; max-width:760px; }
+    .section-title { margin:22px 0 10px; font-size:13px; color:var(--accent); letter-spacing:1px; text-transform:uppercase; }
+    hr { border:0; border-top:1px solid var(--rule); margin:8px 0 14px; }
+    .job { margin:0 0 18px; }
+    .row { display:flex; justify-content:space-between; gap:18px; }
+    .role { font-weight:700; font-size:16px; color:#374151; }
+    .date { white-space:nowrap; color:#111827; }
+    .company { color:var(--muted); margin:2px 0 8px; }
+    ul { margin:8px 0 0 18px; padding:0; }
+    li { margin:6px 0; color:#4b5563; }
+    .edu { margin:0; }
+    .school { font-weight:700; font-size:16px; color:#374151; }
+    .degree { color:var(--muted); margin:2px 0 0; }
+    .skills { margin:0; color:#4b5563; }
+    .skills b { color:#374151; }
+  </style>
+</head>
+
+<body>
+  <main class="page">
+    <!-- Header -->
+    <header>
+      <h1>First Last</h1>
+      <h2>Software Engineering Lead</h2>
+
+      <p class="meta">
+        Bay Area, California &nbsp;·&nbsp; +1-234-456-789 &nbsp;·&nbsp;
+        <a href="mailto:professionalemail@resumeworded.com">professionalemail@resumeworded.com</a>
+        &nbsp;·&nbsp; <a href="https://linkedin.com/in/username">linkedin.com/in/username</a>
+      </p>
+
+      <p class="summary">
+        Software engineering lead with ten years' experience implementing backend systems in C++;
+        led re-architecture of key platform that serves 100,000 requests per month, increasing speed by 20 percent;
+        awarded the prestigious "Most Impactful" award, given to the top 5 percent of engineers based on total impact to firm;
+        promoted two times in 18 months, six months ahead of schedule.
+      </p>
+    </header>
+
+    <!-- Work Experience -->
+    <section>
+      <div class="section-title">Work Experience</div>
+      <hr />
+
+      <article class="job">
+        <div class="row">
+          <div class="role">Software Engineering Manager and Data Science Manager</div>
+          <div class="date">November 2015 – Present</div>
+        </div>
+        <div class="company">Resume Worded, New York, NY</div>
+
+        <p class="summary" style="margin:0 0 6px; max-width:none;">
+          Launched Miami office with lead Director and recruited a new team of 10 employees; grew office revenue by 200%
+          in first nine months (representing 20% of company revenue). Co-managed analytics and engineering teams.
+        </p>
+
+        <ul>
+          <li>Led the first major effort to A/B test the company's e-commerce sales page and optimize it for customer acquisition; resulted in a 7.5% increase in conversions</li>
+          <li>Built Tableau dashboard using data from Amplitude and Segment to visualize core business KPIs (e.g. Monthly Recurring Revenue), saving 10 hours per week of manual reporting work</li>
+          <li>Reduced signup drop-offs from 65% to 15% and increased user engagement by 40%, through a combination of hypothesis testing, segmentation analysis and machine learning algorithms</li>
+        </ul>
+      </article>
+
+      <article class="job">
+        <div class="row">
+          <div class="role">Business Analyst</div>
+          <div class="date">June 2013 – October 2015</div>
+        </div>
+        <div class="company">Growthsi, San Francisco, CA</div>
+
+        <p class="summary" style="margin:0 0 6px; max-width:none;">
+          First hire on the analytics team of RW Ventures funded startup ($10mm Series A). Developed product strategies for lead Director
+          and trained the team as it grew to 25 employees. Led redesign of mobile app and website.
+        </p>
+
+        <ul>
+          <li>Spearheaded a major pricing restructure by redirecting focus on consumer willingness to pay instead of product cost; implemented a three-tiered pricing model which increased average sale 35% and margin 12%</li>
+          <li>Designed training and peer-mentoring programs for the incoming class of 25 analysts in 2017; reduced onboarding time for new hires by 50%</li>
+        </ul>
+      </article>
+
+      <article class="job">
+        <div class="row">
+          <div class="role">Business Development Consultant</div>
+          <div class="date">August 2010 – January 2013</div>
+        </div>
+        <div class="company">Resume Worded’s Exciting Company, New York, NY</div>
+
+        <p class="summary" style="margin:0 0 6px; max-width:none;">
+          Liaised with C-level executives of My Exciting Company, a RW Ventures-backed ecommerce marketplace website with 100k members
+          which helps designers sell their artwork and designs to businesses.
+        </p>
+
+        <ul>
+          <li>Strengthened relationships with 6 strategic partners (including Expedia, Skyscanner and Airbnb) through follow-up meetings with C-suite executives</li>
+          <li>Developed and executed customer referral program, leading to 50% increase in referral business and $2MM of incremental revenue</li>
+        </ul>
+      </article>
+    </section>
+
+    <!-- Education -->
+    <section>
+      <div class="section-title">Education</div>
+      <hr />
+
+      <div class="edu">
+        <div class="school">Resume Worded University, <span style="font-weight:400; color:var(--muted);">New York, NY</span></div>
+        <p class="degree">Bachelor of Engineering — Computer Science</p>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section>
+      <div class="section-title">Skills &amp; Other</div>
+      <hr />
+
+      <p class="skills">
+        <b>Data Visualization/Engineering:</b> Tableau (Advanced), Looker (Experienced), Segment, Amplitude<br />
+        <b>Techniques:</b> Hypothesis Testing, Recommendation Engines, Customer Segmentation Analysis (Advanced)<br />
+        <b>Tools and Frameworks:</b> ElasticSearch, Python (Keras, Scikit-learn), Hadoop, Python, Databases (MySQL)
+      </p>
+    </section>
+  </main>
+</body>
+</html>

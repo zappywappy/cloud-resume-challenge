@@ -1,0 +1,28 @@
+Best Practices:
+    -create folders for each layer of your application
+    -ensure to create a README.md for each folder to understand the use-case and step-by-step process
+    -DOCUMENT EVERYTHING!!!
+    -rename modifiable files to the day you imported them
+
+Tips:
+-You can drag and drop files into the Github dev directories(images, code files)
+-You can apply Links to text with the following format : [Text shown in README.md](link you want to attach to the text)
+- # for BIG HEADER
+- ## for medium header
+- ### for smaller header
+- #### for even smalllerrrrrr
+- create public folder for what end users will see
+
+
+CSS Framework:
+- Cascading Style Sheets
+- handles visual presentation and layout of a webpage
+- dependent on HTML elements to style; it cannot function alone.
+
+HTML Structure:
+- !DOCTYPE : what doc type is being used
+- Html lang: what language is being used
+- name=viewport, content=width=device-width : used for scaling for mobile
+- title = title of the page
+- style = the color, decorations of the webpage
+- header = used to groups for better structure of the code
