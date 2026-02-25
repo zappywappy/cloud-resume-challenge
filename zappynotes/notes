@@ -26,3 +26,4 @@ HTML Structure:
 - title = title of the page
 - style = the color, decorations of the webpage
 - header = used to groups for better structure of the code
+- h1, h2 ,h3 = header line 1, header line 2, header line 3
