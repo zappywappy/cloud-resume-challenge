@@ -60,5 +60,11 @@ Reference Documentation: https://www.npmjs.com/package/http-server
     }    
 '''
 
-- must commit and push for changes to take effect
+- commit and push for changes to take effect
+- received error
+
+[2026-02-26T09:34:15.076Z]  "GET /frontend/assets/stylesheets/style.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
+[2026-02-26T09:34:15.076Z]  "GET /frontend/assets/stylesheets/style.css" Error (404): "Not found"
+
+- removed "frontend/" to see if that made any change. prcoessed commit. 
 - refresh the local website and see if changes are made
