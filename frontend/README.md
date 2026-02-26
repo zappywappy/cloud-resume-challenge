@@ -25,3 +25,5 @@ This is the generated HTML for the resume template [frontend/assets/02-24-26resu
 
 ## HTML Adjustments
 - grabbing pieces from generated HTML and placing them in a [new file](frontend/public/index.html)
+- 2/26/26 : completed foundation adjustments and also updated resume info. Will need to include project exp, certification completion, course completion
+
