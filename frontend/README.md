@@ -67,4 +67,5 @@ Reference Documentation: https://www.npmjs.com/package/http-server
 [2026-02-26T09:34:15.076Z]  "GET /frontend/assets/stylesheets/style.css" Error (404): "Not found"
 
 - removed "frontend/" to see if that made any change. prcoessed commit. 
+- failed again. turns out "assets" folder needs to be in the "public" folder. moved folder, folder turned green sooo looks good? committed to verify if this worked
 - refresh the local website and see if changes are made
