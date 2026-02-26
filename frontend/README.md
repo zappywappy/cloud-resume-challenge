@@ -9,7 +9,9 @@
 - Resume should resemble a Modern resume template [Resume Template](https://docs.google.com/document/d/19JWIczqAohw7HQeR5TCEPCxdrukdWyvhovV-rLIP9ls/edit?tab=t.0)
 - This is the top recommended for Tech industry per Gemini AI
 
-## Harvard Resume Format Generation
+- 2/26/26 Thought doing a interactive portfolio might work better! wondering if that is doable with HTML (we will find out)
+
+## Resume Format Generation
 
 Will need to figure out a way to format resmume to follow Resume Template via HTML. 
 Can use AI to generate HTML , will edit to meet our preference

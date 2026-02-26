@@ -27,3 +27,5 @@ HTML Structure:
 - style = the color, decorations of the webpage
 - header = used to groups for better structure of the code
 - h1, h2 ,h3 = header line 1, header line 2, header line 3
+- use https://validator.w3.org/ to validate HTML code for errors
+- for href, you need to ensure the link and text is between (")
