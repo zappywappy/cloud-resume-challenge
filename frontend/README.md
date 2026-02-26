@@ -27,3 +27,38 @@ This is the generated HTML for the resume template [frontend/assets/02-24-26resu
 - grabbing pieces from generated HTML and placing them in a [new file](frontend/public/index.html)
 - 2/26/26 : completed foundation adjustments and also updated resume info. Will need to include project exp, certification completion, course completion
 
+## Setting up HTTP to localize website
+
+- first install Vim through extensions on the left menu. this will be used to use Visual Studio Code to visualize the website and begin styling to my prefrence.
+- open a terminal by choosing the layouts in the top right
+- enter the following command in the terminal:
+
+    ```sh
+        npm i http-server -g     <!-- this will install http-server using npm/node.js-->
+    ```
+Reference Documentation: https://www.npmjs.com/package/http-server
+
+'''sh
+    cd frontend <!-- this will open the frontend folder-->
+    http-server <!-- since i am in the frontend folder, this will have the http-server run and serve as a public folder>
+'''
+
+- can access the http-server via browser by clicking on the Avaiable links via IP address. this currently shows whats in the public/index.html file
+- now i can begin styling the webpage, create a new folder in assets directory: "stylesheets"
+- create file "style.css" in the stylesheets folder
+- open the index.html and add <link> to reference the style.css file 
+
+'''
+    <link rel="stylesheet" href="frontend/assets/stylesheets/style.css">
+'''    
+
+- run a test to see if link worked, open style.css and type the following to change the background color
+
+'''
+    html, body {
+        background: rgb(0,255,255) <!-- this will change the color of the background to tourqouise/light blue-->
+    }    
+'''
+
+- must commit and push for changes to take effect
+- refresh the local website and see if changes are made
