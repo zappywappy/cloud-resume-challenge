@@ -18,7 +18,7 @@ Will need to figure out a way to format resmume to follow Resume Template via HT
 Can use AI to generate HTML , will edit to meet our preference
 
 Prompt: 
-Convert this resume format (zappywappy/cloud-resume-challenge/frontend/assets/resumetemplate.png) into HTML.
+Convert this [resume format](public/assets/resumetemplate.png) into HTML.
 Do not use a CCS framework (decoration of the webpage)
 Use least amount of css tags.
 
@@ -39,10 +39,10 @@ This is the generated HTML for the resume template [frontend/assets/02-24-26resu
     ```
 Reference Documentation: https://www.npmjs.com/package/http-server
 
-'''sh
+```sh
     cd frontend <!-- this will open the frontend folder-->
-    http-server <!-- since i am in the frontend folder, this will have the http-server run and serve as a public folder>
-'''
+    http-server <!-- since i am in the frontend folder, this will have the http-server run and 
+```
 
 - can access the http-server via browser by clicking on the Avaiable links via IP address. this currently shows whats in the public/index.html file
 
@@ -51,18 +51,18 @@ Reference Documentation: https://www.npmjs.com/package/http-server
 - create file "style.css" in the stylesheets folder
 - open the index.html and add <link> to reference the style.css file 
 
-'''
+```
     <link rel="stylesheet" href="frontend/assets/stylesheets/style.css">
-'''    
+```    
 
 - run a test to see if link worked, open style.css and type the following to change the background color
 
 <!-- background color-->
-'''
+```
     html, body {
         background: rgb(0,255,255) <!-- this will change the color of the background to tourqouise/light blue-->
     }    
-'''
+```
 
 - commit and push for changes to take effect
 - received error
@@ -79,16 +79,16 @@ Reference Documentation: https://www.npmjs.com/package/http-server
 <!-- enable border for webpage to keep consistent sizing throught the webpage-->
 https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/box-sizing
 
-'''
+```
     {
     box-sizing: border-box;
     }
-
+```
 
 <!-- set margins for the header & headings to 0px. This aligns the headers & headings to the top left corner of the webpage. I also include color for the header and headings to see outcome for fun-->
 [Outcome](public/assets/webpage_style1.png)
 
-'''
+```
 header {
     width:200px;
     margin: 0px;
@@ -102,14 +102,13 @@ h1,h2,h3,h4,h5 {
     padding: 0px;
     background: rgb(255,0,255);
 }
-'''
+```
 
 <!-- move the webpage to the center-->
-[Outcome](public/assets/webpage_style1 copy.png)
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 
-'''
+```
     main {
         height: 100%;
         wedith: 100%;
@@ -117,16 +116,16 @@ https://css-tricks.com/snippets/css/a-guide-to-flexbox/
         flex-direction: column;
         align-items: center
     }
-'''
+```
 
 <!-- creating border around the article to force the text to wrap. also adding color white-->
 [Outcome](public/assets/webpage_articlecenter1.png)
-'''
+```
     article {
         width: 1200px;
         background: rgb(255,255,255)
     }
-
+```
 
 - need to format the webpage a bit better and change some of the data:
     - make name right in the center, with the job position below
@@ -139,7 +138,9 @@ https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 <!-- reminded myself i should follow the template as i am treating this as a request/initiative task-->
 - reviewing the template html to see how to reach the same format
 
-'''css
+```css
+    CSS
+
     main: 
     |remove| ALL (deleted)
 
@@ -219,12 +220,14 @@ https://css-tricks.com/snippets/css/a-guide-to-flexbox/
     
  .skills b
     |add| color:#374151; 
-'''
+```
 
-'''html
+```html
+    HTML
+
     |remove| &nbsp;
     |add| &#x2022; (used as the dot between the address and contact info)
     |move| phone number before email address
     |update| added real phone number and location
-'''
+```
 [Outcome](public/assets/webpage_reformatted_to_template.png)
