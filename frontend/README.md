@@ -40,8 +40,8 @@ This is the generated HTML for the resume template [frontend/assets/02-24-26resu
 Reference Documentation: https://www.npmjs.com/package/http-server
 
 ```sh
-    cd frontend <!-- this will open the frontend folder-->
-    http-server <!-- since i am in the frontend folder, this will have the http-server run and 
+    cd frontend (this will open the frontend folder)
+    http-server (since i am in the frontend folder, this will have the http-server run)
 ```
 
 - can access the http-server via browser by clicking on the Avaiable links via IP address. this currently shows whats in the public/index.html file
@@ -60,16 +60,16 @@ Reference Documentation: https://www.npmjs.com/package/http-server
 <!-- background color-->
 ```
     html, body {
-        background: rgb(0,255,255) <!-- this will change the color of the background to tourqouise/light blue-->
+        background: rgb(0,255,255) (this will change the color of the background to tourqouise/light blue)
     }    
 ```
 
 - commit and push for changes to take effect
 - received error
-
+```
 [2026-02-26T09:34:15.076Z]  "GET /frontend/assets/stylesheets/style.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
 [2026-02-26T09:34:15.076Z]  "GET /frontend/assets/stylesheets/style.css" Error (404): "Not found"
-
+```
 - removed "frontend/" to see if that made any change. prcoessed commit. 
 - failed again. turns out "assets" folder needs to be in the "public" folder. moved folder, folder turned green sooo looks good? committed to verify if this worked
 - refresh the local website and see if changes are made
