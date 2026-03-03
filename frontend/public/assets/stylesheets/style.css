@@ -1,3 +1,128 @@
-html, body {
-    background: rgb(0,255,255)
+* {
+  box-sizing: border-box;
+}
+
+:root { --ink:#1f2937; 
+    --muted:#6b7280; 
+    --accent:#013897; 
+    --rule:#e5e7eb; }
+
+body {
+    margin: 0px;
+    color:var(--ink); 
+    font:14px/1.45 Arial, Helvetica, sans-serif;
 }        
+
+.page {
+    max-width:1000px;
+    margin:28px auto;
+    padding:0 28px 28px;
+}
+
+header {
+    margin: 0px;
+}
+
+h1 {
+    margin:0;
+    font-size: 44px;
+    letter-spacing: .2px;
+    color: var(--accent);
+}
+
+h2 {
+    margin:4px 0 0;
+    font-size:18px; 
+    font-weight:600; 
+    color:#374151;
+}
+
+.meta {
+    margin:6px 0 14px; 
+    color:var(--muted);
+}
+
+.meta a {
+    color:inherit; 
+    text-decoration:none;
+}
+
+.summary {
+    margin:0 0 18px; 
+    color:#4b5563; 
+    max-width:960px;
+}
+
+.section-title {
+     margin:22px 0 10px; 
+     font-size:13px; 
+     color:var(--accent); 
+     letter-spacing:1px; 
+     text-transform:uppercase;
+}
+
+hr { 
+    border:0; 
+    border-top:1px solid var(--rule);
+     margin:8px 0 14px; 
+    
+}
+
+.job { 
+    margin:0 0 18px; 
+}
+
+.row { display:flex; 
+    justify-content:space-between; 
+    gap:18px; 
+}
+
+.role { 
+    font-weight:700; 
+    font-size:16px; 
+    color:#374151; 
+}
+
+.date { 
+    white-space:nowrap; 
+    color:#111827; 
+}
+
+.company { 
+    color:var(--muted); 
+    margin:2px 0 8px; 
+}
+
+ul {
+     margin:8px 0 0 18px; 
+    padding:0; 
+}
+    
+li { 
+    margin:6px 0; 
+    color:#4b5563; 
+}
+    
+.edu { 
+    margin:0; 
+}
+    
+.school { 
+    font-weight:700; 
+    font-size:16px; 
+    color:#374151; 
+}
+    
+.degree { 
+    color:var(--muted); 
+    margin:2px 0 0; 
+}
+    
+.skills {
+     margin:0; 
+     color:#4b5563; 
+    }
+    
+.skills b { 
+    color:#374151; 
+}
