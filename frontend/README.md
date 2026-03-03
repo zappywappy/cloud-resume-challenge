@@ -46,7 +46,7 @@ Reference Documentation: https://www.npmjs.com/package/http-server
 
 - can access the http-server via browser by clicking on the Avaiable links via IP address. this currently shows whats in the public/index.html file
 
-## Styling the webpage
+## Praciting styling the webpage and see how changes impact the visuals
 - now i can begin styling the webpage, create a new folder in assets directory: "stylesheets"
 - create file "style.css" in the stylesheets folder
 - open the index.html and add <link> to reference the style.css file 
@@ -119,8 +119,6 @@ https://css-tricks.com/snippets/css/a-guide-to-flexbox/
     }
 '''
 
-- article is too long. need to set border to make it more cleaner
-
 <!-- creating border around the article to force the text to wrap. also adding color white-->
 [Outcome](public/assets/webpage_articlecenter1.png)
 '''
@@ -136,6 +134,7 @@ https://css-tricks.com/snippets/css/a-guide-to-flexbox/
     - then move the email, linkedin, phone number onto another row. (maybe include github link aswell)
 
 
+## Styling webpage to the template 
 
 <!-- reminded myself i should follow the template as i am treating this as a request/initiative task-->
 - reviewing the template html to see how to reach the same format
